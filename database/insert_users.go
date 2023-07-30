@@ -8,6 +8,12 @@ import (
 	"golang.org/x/crypto/bcrypt"
 )
 
+// Hash difficulty
+// Used for encrypting the user password
+const(
+	hashDifficulty = 6
+)
+
 // Insert a new user to the users table
 // Returns true if the insertion was successful
 // Returns false if it was not
@@ -24,7 +30,7 @@ func (db *SqliteDb) InsertUser(form *models.RegisterForm) bool {
 
 	// Generating the hash
 	// catching the error
-	hashByte, err := bcrypt.GenerateFromPassword([]byte(form.Password), 14)
+	hashByte, err := bcrypt.GenerateFromPassword([]byte(form.Password), hashDifficulty)
 	if nil != err {
 		logger.Println(err)
 		return false

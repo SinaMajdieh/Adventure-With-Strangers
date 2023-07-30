@@ -38,7 +38,7 @@ func LoginHandler(c *fiber.Ctx) error {
 		Value: strconv.Itoa(id),
 	})
 
-	logger.Println(loginForm.Username + " was found")
+	logger.Println(loginForm.Username + " logged in")
 	return generateStatus(c, true, messages.LoginSuccessful)
 
 }
