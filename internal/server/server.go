@@ -1,3 +1,6 @@
+// Package fibServer is an implementation of a Standard Go Fiber framework
+// For preparing and serving a fiber application
+// designed to run a fiber server for this project
 package fibServer
 
 // Package for initializing Standard Go Fiber server app

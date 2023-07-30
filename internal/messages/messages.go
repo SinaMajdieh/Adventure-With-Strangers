@@ -1,3 +1,5 @@
+// Package messages includes all the error and success messages
+// used in this project only
 package messages
 
 // Declaring messages different packages will use

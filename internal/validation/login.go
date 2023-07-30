@@ -1,3 +1,5 @@
+// Package validation is used to validate information from the front-end.
+// Used in api package
 package validation
 
 // Validation functions for login action

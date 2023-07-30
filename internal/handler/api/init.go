@@ -1,3 +1,5 @@
+// Package api is for running and handling the api request.
+// designed to be used in this project alone
 package api
 
 // Initialize api basic functions

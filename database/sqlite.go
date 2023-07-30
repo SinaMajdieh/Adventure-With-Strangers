@@ -1,3 +1,5 @@
+// Package database is an implementation of sqlite3 database and consists of function
+// to query on the specific database designed for this project
 package database
 
 // Sqlite database initialization

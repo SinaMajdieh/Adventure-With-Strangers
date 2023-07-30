@@ -1,3 +1,5 @@
+// Package config is for reading the config file necessary for the server interface to run
+// And exports the config file to the config model declared in its own package
 package config
 
 // Reading the configuration json file and transferring it to the config model

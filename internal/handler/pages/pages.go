@@ -1,3 +1,5 @@
+// Package pages id for serving the static react pages.
+// designed to be used in this project only
 package pages
 
 // Static pages handler

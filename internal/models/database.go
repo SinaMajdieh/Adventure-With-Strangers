@@ -1,3 +1,5 @@
+// package models consists of all the models for the database interface,
+// front-end forms, ...
 package models
 
 // Models used in sqlite database
